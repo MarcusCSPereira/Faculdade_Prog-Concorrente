@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.401" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TelaController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1000.0" layoutX="76.0" layoutY="-45.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../assets/bg.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="caminho_carro0" fitHeight="700.0" fitWidth="1000.0" layoutX="5.0" layoutY="-4.0" pickOnBounds="true" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../assets/caminho0.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="caminho_carro1" fitHeight="700.0" fitWidth="1000.0" layoutX="5.0" layoutY="-4.0" pickOnBounds="true" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../assets/caminho1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="caminho_carro2" fitHeight="700.0" fitWidth="1000.0" layoutX="5.0" layoutY="-4.0" pickOnBounds="true" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../assets/caminho2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="caminho_carro3" fitHeight="700.0" fitWidth="1000.0" layoutX="5.0" layoutY="-4.0" pickOnBounds="true" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../assets/caminho3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="caminho_carro4" fitHeight="700.0" fitWidth="1000.0" layoutX="5.0" layoutY="-4.0" pickOnBounds="true" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../assets/caminho4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="caminho_carro5" fitHeight="700.0" fitWidth="1000.0" layoutX="5.0" layoutY="-4.0" pickOnBounds="true" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../assets/caminho5.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="caminho_carro6" fitHeight="700.0" fitWidth="1000.0" layoutX="5.0" layoutY="-4.0" pickOnBounds="true" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../assets/caminho6.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="caminho_carro7" fitHeight="700.0" fitWidth="1000.0" layoutX="5.0" layoutY="-4.0" pickOnBounds="true" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../assets/caminho7.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="slider_carro0" blockIncrement="1.0" layoutX="806.0" layoutY="145.0" majorTickUnit="1.0" max="6.0" minorTickCount="0" style="-fx-background-color: #FFC400; -fx-background-radius: 15;" value="3.0" />
+      <Slider fx:id="slider_carro1" blockIncrement="1.0" layoutX="805.0" layoutY="215.0" majorTickUnit="1.0" max="6.0" minorTickCount="0" style="-fx-background-color: #FF3F4A; -fx-background-radius: 15;" value="3.0" />
+      <Slider fx:id="slider_carro2" blockIncrement="1.0" layoutX="805.0" layoutY="295.0" majorTickUnit="1.0" max="6.0" minorTickCount="0" style="-fx-background-color: #FF7A00; -fx-background-radius: 15;" value="3.0" />
+      <Slider fx:id="slider_carro3" blockIncrement="1.0" layoutX="805.0" layoutY="368.0" majorTickUnit="1.0" max="6.0" minorTickCount="0" style="-fx-background-color: #DFE8ED; -fx-background-radius: 15;" value="3.0" />
+      <Slider fx:id="slider_carro4" blockIncrement="1.0" layoutX="805.0" layoutY="445.0" majorTickUnit="1.0" max="6.0" minorTickCount="0" style="-fx-background-color: #2DBD4A; -fx-background-radius: 15;" value="3.0" />
+      <Slider fx:id="slider_carro5" blockIncrement="1.0" layoutX="805.0" layoutY="518.0" majorTickUnit="1.0" max="6.0" minorTickCount="0" style="-fx-background-color: #00CFEA; -fx-background-radius: 15;" value="3.0" />
+      <Slider fx:id="slider_carro6" blockIncrement="1.0" layoutX="805.0" layoutY="590.0" majorTickUnit="1.0" max="6.0" minorTickCount="0" style="-fx-background-color: #B140DB; -fx-background-radius: 15;" value="3.0" />
+      <Slider fx:id="slider_carro7" blockIncrement="1.0" layoutX="805.0" layoutY="670.0" majorTickUnit="1.0" max="6.0" minorTickCount="0" style="-fx-background-color: #FF6194; -fx-background-radius: 15;" value="3.0" />
+      <ImageView fx:id="close_btt" fitHeight="38.0" fitWidth="38.0" layoutX="952.0" layoutY="1.0" onMouseClicked="#close" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/close_button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="reset_btt" fitHeight="40.0" fitWidth="40.0" layoutX="754.0" layoutY="2.0" onMouseClicked="#reset" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/reset_button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pause_carro0" fitHeight="42.0" fitWidth="53.0" layoutX="760.0" layoutY="110.0" onMouseClicked="#pause0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pause_button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pause_carro1" fitHeight="42.0" fitWidth="53.0" layoutX="760.0" layoutY="180.0" onMouseClicked="#pause1" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pause_button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pause_carro2" fitHeight="42.0" fitWidth="53.0" layoutX="760.0" layoutY="255.0" onMouseClicked="#pause2" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pause_button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pause_carro3" fitHeight="42.0" fitWidth="53.0" layoutX="760.0" layoutY="330.0" onMouseClicked="#pause3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pause_button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pause_carro4" fitHeight="42.0" fitWidth="53.0" layoutX="760.0" layoutY="400.0" onMouseClicked="#pause4" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pause_button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pause_carro5" fitHeight="42.0" fitWidth="53.0" layoutX="760.0" layoutY="480.0" onMouseClicked="#pause5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pause_button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pause_carro6" fitHeight="42.0" fitWidth="53.0" layoutX="760.0" layoutY="550.0" onMouseClicked="#pause6" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pause_button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pause_carro7" fitHeight="42.0" fitWidth="53.0" layoutX="760.0" layoutY="630.0" onMouseClicked="#pause7" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pause_button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gps_carro0" fitHeight="65.0" fitWidth="52.0" layoutX="945.0" layoutY="105.0" onMouseClicked="#gps0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/gps_yellow.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gps_carro1" fitHeight="52.0" fitWidth="52.0" layoutX="945.0" layoutY="175.0" onMouseClicked="#gps1" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/gps_red.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gps_carro2" fitHeight="52.0" fitWidth="52.0" layoutX="945.0" layoutY="250.0" onMouseClicked="#gps2" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/gps_orange.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gps_carro3" fitHeight="52.0" fitWidth="52.0" layoutX="945.0" layoutY="325.0" onMouseClicked="#gps3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/gps_silver.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gps_carro4" fitHeight="52.0" fitWidth="52.0" layoutX="945.0" layoutY="395.0" onMouseClicked="#gps4" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/gps_green.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gps_carro5" fitHeight="52.0" fitWidth="52.0" layoutX="945.0" layoutY="475.0" onMouseClicked="#gps5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/gps_cyan.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gps_carro6" fitHeight="52.0" fitWidth="52.0" layoutX="945.0" layoutY="545.0" onMouseClicked="#gps6" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/gps_purple.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gps_carro7" fitHeight="52.0" fitWidth="52.0" layoutX="945.0" layoutY="625.0" onMouseClicked="#gps7" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/gps_pynk.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageCarro0" fitHeight="47.0" fitWidth="54.0" layoutX="135.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/carro0.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageCarro1" fitHeight="47.0" fitWidth="54.0" layoutX="135.0" layoutY="615.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/carro1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageCarro2" fitHeight="47.0" fitWidth="54.0" layoutX="41.0" layoutY="265.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/carro2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageCarro3" fitHeight="47.0" fitWidth="54.0" layoutX="278.0" layoutY="483.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/carro3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageCarro4" fitHeight="47.0" fitWidth="54.0" layoutX="420.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/carro4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageCarro5" fitHeight="47.0" fitWidth="54.0" layoutX="607.0" layoutY="398.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/carro5.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageCarro6" fitHeight="47.0" fitWidth="54.0" layoutX="420.0" layoutY="574.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/carro6.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageCarro7" fitHeight="47.0" fitWidth="54.0" layoutX="135.0" layoutY="312.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/carro7.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cliente0" fitHeight="31.0" fitWidth="24.0" layoutX="79.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../assets/cliente.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cliente1" fitHeight="41.0" fitWidth="29.0" layoutX="205.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../assets/cliente.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cliente2" fitHeight="38.0" fitWidth="29.0" layoutX="355.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../assets/cliente.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cliente3" fitHeight="41.0" fitWidth="29.0" layoutX="533.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../assets/cliente.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cliente4" fitHeight="41.0" fitWidth="30.0" layoutX="231.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../assets/cliente.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cliente5" fitHeight="40.0" fitWidth="25.0" layoutX="623.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../assets/cliente.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cliente6" fitHeight="36.0" fitWidth="26.0" layoutX="81.0" layoutY="309.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../assets/cliente.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cliente7" fitHeight="36.0" fitWidth="26.0" layoutX="390.0" layoutY="335.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../assets/cliente.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cliente8" fitHeight="36.0" fitWidth="26.0" layoutX="646.0" layoutY="319.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../assets/cliente.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cliente9" fitHeight="36.0" fitWidth="26.0" layoutX="55.0" layoutY="443.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../assets/cliente.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cliente10" fitHeight="36.0" fitWidth="26.0" layoutX="210.0" layoutY="463.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../assets/cliente.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cliente11" fitHeight="36.0" fitWidth="26.0" layoutX="508.0" layoutY="436.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../assets/cliente.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cliente12" fitHeight="36.0" fitWidth="26.0" layoutX="219.0" layoutY="608.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../assets/cliente.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cliente13" fitHeight="28.0" fitWidth="23.0" layoutX="380.0" layoutY="568.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../assets/cliente.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cliente14" fitHeight="36.0" fitWidth="26.0" layoutX="649.0" layoutY="580.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../assets/cliente.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="26.0" layoutX="761.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/cliente.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="slider_geradoraClientes" blockIncrement="1.0" layoutX="795.0" layoutY="61.0" majorTickUnit="1.0" max="10.0" minorTickCount="0" prefHeight="26.0" prefWidth="160.0" showTickMarks="true" snapToTicks="true" style="-fx-background-color: black; -fx-background-radius: 15;" value="5.0" />
+      <ImageView fx:id="sound_Image" fitHeight="42.0" fitWidth="42.0" layoutX="955.0" layoutY="52.0" onMouseClicked="#controlSound" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/sound.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

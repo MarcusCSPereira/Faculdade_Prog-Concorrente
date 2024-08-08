@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8.0.401" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerTela2">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="750.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/background-tela2.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="train1_imagem" fitHeight="40.0" fitWidth="120.0" layoutX="246.0" layoutY="800.0" pickOnBounds="true" rotate="90.0">
+         <image>
+            <Image url="@../assets/trem1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="train2_imagem" fitHeight="38.0" fitWidth="120.0" layoutX="374.0" layoutY="804.0" pickOnBounds="true" rotate="90.0">
+         <image>
+            <Image url="@../assets/trem2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="voltarTelaInicial_imagem" fitHeight="101.0" fitWidth="73.0" layoutX="482.0" layoutY="13.0" onMouseClicked="#voltar" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/backBtt.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="434.0" fitWidth="260.0" layoutX="-23.0" layoutY="209.0" pickOnBounds="true" AnchorPane.leftAnchor="-23.0">
+         <image>
+            <Image url="@../assets/velocidade_trem1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="434.0" fitWidth="260.0" layoutX="506.0" layoutY="209.0" pickOnBounds="true" AnchorPane.rightAnchor="-23.0">
+         <image>
+            <Image url="@../assets/velocidade_trem2.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="slider_trem1" blockIncrement="1.0" layoutX="99.0" layoutY="462.0" majorTickUnit="1.0" max="5.0" minorTickCount="1" orientation="VERTICAL" style="-fx-background-color: #008AC3; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #000000;" value="1.0" />
+      <Slider fx:id="slider_trem2" blockIncrement="1.0" layoutX="640.0" layoutY="462.0" majorTickUnit="1.0" max="5.0" minorTickCount="1" orientation="VERTICAL" style="-fx-background-color: #DF2639; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #000000;" value="1.0" />
+      <Circle fx:id="zonaCritica1" fill="RED" layoutX="375.0" layoutY="565.0" opacity="0.0" radius="43.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="zonaCritica2" fill="RED" layoutX="375.0" layoutY="225.0" opacity="0.0" radius="43.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fx:id="resetBtt_imagem" fitHeight="101.0" fitWidth="73.0" layoutX="575.0" layoutY="13.0" onMouseClicked="#resetar" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/resetBtt.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="fecharPrograma_imagem" fitHeight="101.0" fitWidth="73.0" layoutX="665.0" layoutY="13.0" onMouseClicked="#fecharPrograma" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/closeBtt.png" />
+         </image>
+      </ImageView>
+      <ChoiceBox fx:id="choicebox_tela2" layoutX="10.0" layoutY="86.0" prefHeight="37.0" prefWidth="265.0" style="-fx-background-color: #E1EBE1;" />
+      <Label alignment="CENTER" layoutX="9.0" layoutY="15.0" prefHeight="73.0" prefWidth="279.0" style="-fx-text-fill: black;" text="Escolha a nova posição de saída dos trens:" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="7.0" layoutY="13.0" prefHeight="73.0" prefWidth="279.0" style="-fx-text-fill: red;" text="Escolha a nova posição de saída dos trens:" textAlignment="CENTER" textFill="RED" wrapText="true" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="464.0">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

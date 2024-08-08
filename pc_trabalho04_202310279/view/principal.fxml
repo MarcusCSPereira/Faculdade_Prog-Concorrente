@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/8.0.391" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.PrincipalController">
+   <children>
+      <ImageView fx:id="bg" fitHeight="700.0" fitWidth="1104.0" layoutX="-2.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/leitores_escritores.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="label4" layoutX="566.0" layoutY="130.0" prefHeight="27.0" prefWidth="230.0" text="Label" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="label5" layoutX="566.0" layoutY="170.0" prefHeight="27.0" prefWidth="230.0" text="teste" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="label6" layoutX="566.0" layoutY="210.0" prefHeight="27.0" prefWidth="230.0" text="Label" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="label7" layoutX="566.0" layoutY="250.0" prefHeight="27.0" prefWidth="230.0" text="Label" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="label0" layoutX="290.0" layoutY="130.0" prefHeight="27.0" prefWidth="230.0" text="Label" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="label1" layoutX="290.0" layoutY="170.0" prefHeight="27.0" prefWidth="230.0" text="Label" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="label2" layoutX="290.0" layoutY="210.0" prefHeight="27.0" prefWidth="230.0" text="Label" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="label3" layoutX="290.0" layoutY="250.0" prefHeight="27.0" prefWidth="230.0" text="Label" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <Slider fx:id="slider_leitura0" layoutX="956.0" layoutY="75.0" min="1.0" prefHeight="16.0" prefWidth="140.0" rotate="180.0" value="50.0" />
+      <Slider fx:id="slider_compilacao0" layoutX="956.0" layoutY="102.0" min="1.0" prefHeight="16.0" prefWidth="140.0" rotate="180.0" value="50.0" />
+      <Slider fx:id="slider_leitura1" layoutX="956.0" layoutY="219.0" min="1.0" prefHeight="16.0" prefWidth="140.0" rotate="180.0" value="50.0" />
+      <Slider fx:id="slider_compilacao1" layoutX="956.0" layoutY="245.0" min="1.0" prefHeight="16.0" prefWidth="140.0" rotate="180.0" value="50.0" />
+      <Slider fx:id="slider_leitura2" layoutX="956.0" layoutY="366.0" min="1.0" prefHeight="16.0" prefWidth="140.0" rotate="180.0" value="50.0" />
+      <Slider fx:id="slider_compilacao2" layoutX="956.0" layoutY="392.0" min="1.0" prefHeight="16.0" prefWidth="140.0" rotate="180.0" value="50.0" />
+      <Slider fx:id="slider_leitura3" layoutX="956.0" layoutY="511.0" min="1.0" prefHeight="16.0" prefWidth="140.0" rotate="180.0" value="50.0" />
+      <Slider fx:id="slider_compilacao3" layoutX="956.0" layoutY="537.0" min="1.0" prefHeight="16.0" prefWidth="140.0" rotate="180.0" value="50.0" />
+      <Slider fx:id="slider_leitura4" layoutX="956.0" layoutY="655.0" min="1.0" prefHeight="16.0" prefWidth="140.0" rotate="180.0" value="50.0" />
+      <Slider fx:id="slider_compilacao4" layoutX="956.0" layoutY="681.0" min="1.0" prefHeight="16.0" prefWidth="140.0" rotate="180.0" value="50.0" />
+      <ProgressBar fx:id="progress_bar_leitor0" layoutX="190.0" layoutY="416.0" prefHeight="12.0" prefWidth="54.0" progress="0.0" style="-fx-accent: #00ff26;" visible="false" />
+      <ProgressBar fx:id="progress_bar_leitor1" layoutX="364.0" layoutY="427.0" prefHeight="12.0" prefWidth="54.0" progress="0.0" style="-fx-accent: #00ff26;" visible="false" />
+      <ProgressBar fx:id="progress_bar_leitor2" layoutX="527.0" layoutY="428.0" prefHeight="12.0" prefWidth="54.0" progress="0.0" style="-fx-accent: #00ff26;" visible="false" />
+      <ProgressBar fx:id="progress_bar_leitor3" layoutX="690.0" layoutY="431.0" prefHeight="12.0" prefWidth="54.0" progress="0.0" style="-fx-accent: #00ff26;" visible="false" />
+      <ProgressBar fx:id="progress_bar_leitor4" layoutX="829.0" layoutY="428.0" prefHeight="12.0" prefWidth="54.0" progress="0.0" style="-fx-accent: #00ff26;" visible="false" />
+      <Slider fx:id="slider_raciocinio0" layoutX="1.0" layoutY="75.0" min="1.0" prefHeight="16.0" prefWidth="140.0" rotate="180.0" value="50.0" />
+      <Slider fx:id="slider_escrevendo0" layoutX="1.0" layoutY="105.0" min="1.0" prefHeight="16.0" prefWidth="140.0" rotate="180.0" value="50.0" />
+      <Slider fx:id="slider_raciocinio1" layoutX="1.0" layoutY="222.0" min="1.0" prefHeight="16.0" prefWidth="140.0" rotate="180.0" value="50.0" />
+      <Slider fx:id="slider_escrevendo1" layoutX="1.0" layoutY="252.0" min="1.0" prefHeight="16.0" prefWidth="140.0" rotate="180.0" value="50.0" />
+      <Slider fx:id="slider_raciocinio2" layoutX="1.0" layoutY="366.0" min="1.0" prefHeight="16.0" prefWidth="140.0" rotate="180.0" value="50.0" />
+      <Slider fx:id="slider_escrevendo2" layoutX="1.0" layoutY="398.0" min="1.0" prefHeight="16.0" prefWidth="140.0" rotate="180.0" value="50.0" />
+      <Slider fx:id="slider_raciocinio3" layoutX="1.0" layoutY="511.0" min="1.0" prefHeight="16.0" prefWidth="140.0" rotate="180.0" value="50.0" />
+      <Slider fx:id="slider_escrevendo3" layoutX="1.0" layoutY="543.0" min="1.0" prefHeight="16.0" prefWidth="140.0" rotate="180.0" value="50.0" />
+      <Slider fx:id="slider_raciocinio4" layoutX="1.0" layoutY="655.0" min="1.0" prefHeight="16.0" prefWidth="140.0" rotate="180.0" value="50.0" />
+      <Slider fx:id="slider_escrevendo4" layoutX="1.0" layoutY="678.0" min="1.0" prefHeight="16.0" prefWidth="140.0" rotate="180.0" value="50.0" />
+      <Label fx:id="label_leitor0" alignment="CENTER" contentDisplay="CENTER" layoutX="137.0" layoutY="284.0" prefHeight="20.0" prefWidth="180.0" text="Lendo..." textAlignment="CENTER" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_leitor1" alignment="CENTER" layoutX="310.0" layoutY="294.0" prefHeight="20.0" prefWidth="180.0" text="Lendo..." textAlignment="JUSTIFY" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_leitor2" alignment="CENTER" layoutX="472.0" layoutY="297.0" prefHeight="20.0" prefWidth="180.0" text="Lendo..." textAlignment="JUSTIFY" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_leitor3" alignment="CENTER" layoutX="622.0" layoutY="290.0" prefHeight="20.0" prefWidth="180.0" text="Lendo..." textAlignment="JUSTIFY" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_leitor4" alignment="CENTER" layoutX="782.0" layoutY="290.0" prefHeight="20.0" prefWidth="180.0" text="Lendo..." textAlignment="JUSTIFY" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <ProgressBar fx:id="progress_bar_escritor0" layoutX="248.0" layoutY="580.0" prefHeight="12.0" prefWidth="54.0" progress="0.0" style="-fx-accent: #00ff26;" visible="false" />
+      <ProgressBar fx:id="progress_bar_escritor1" layoutX="413.0" layoutY="580.0" prefHeight="12.0" prefWidth="54.0" progress="0.0" style="-fx-accent: #00ff26;" visible="false" />
+      <ProgressBar fx:id="progress_bar_escritor2" layoutX="560.0" layoutY="580.0" prefHeight="12.0" prefWidth="54.0" progress="0.0" style="-fx-accent: #00ff26;" visible="false" />
+      <ProgressBar fx:id="progress_bar_escritor3" layoutX="712.0" layoutY="580.0" prefHeight="12.0" prefWidth="54.0" progress="0.0" style="-fx-accent: #00ff26;" visible="false" />
+      <ProgressBar fx:id="progress_bar_escritor4" layoutX="878.0" layoutY="580.0" prefHeight="12.0" prefWidth="54.0" progress="0.0" style="-fx-accent: #00ff26;" visible="false" />
+      <Label fx:id="label_escritor0" layoutX="182.0" layoutY="670.0" prefHeight="20.0" prefWidth="97.0" text="Escrevendo..." textFill="WHITE" visible="false">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_escritor1" layoutX="351.0" layoutY="670.0" prefHeight="20.0" prefWidth="97.0" text="Escrevendo..." textFill="WHITE" visible="false">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_escritor2" layoutX="512.0" layoutY="670.0" prefHeight="20.0" prefWidth="97.0" text="Escrevendo..." textFill="WHITE" visible="false">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_escritor3" layoutX="663.0" layoutY="670.0" prefHeight="20.0" prefWidth="97.0" text="Escrevendo..." textFill="WHITE" visible="false">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_escritor4" contentDisplay="CENTER" layoutX="802.0" layoutY="670.0" prefHeight="20.0" prefWidth="97.0" text="Escrevendo..." textFill="WHITE" visible="false">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="status_escritor0" layoutX="144.0" layoutY="525.0" prefHeight="27.0" prefWidth="163.0" textFill="#ff00d4" visible="false">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="status_escritor1" layoutX="307.0" layoutY="527.0" prefHeight="20.0" prefWidth="163.0" textFill="#00eeff" visible="false">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="status_escritor2" layoutX="469.0" layoutY="532.0" prefHeight="20.0" prefWidth="163.0" textFill="#ff2323" visible="false">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="status_escritor3" layoutX="632.0" layoutY="535.0" prefHeight="20.0" prefWidth="163.0" textFill="#ff7300" visible="false">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="status_escritor4" layoutX="792.0" layoutY="537.0" prefHeight="20.0" prefWidth="163.0" textFill="#ffe500" visible="false">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="pause_button_leitor0" fitHeight="45.0" fitWidth="45.0" layoutX="1044.0" layoutY="18.0" onMouseClicked="#pauseleitor0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pause_button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pause_button_leitor1" fitHeight="45.0" fitWidth="45.0" layoutX="1044.0" layoutY="155.0" onMouseClicked="#pauseleitor1" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pause_button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pause_button_leitor2" fitHeight="45.0" fitWidth="45.0" layoutX="1044.0" layoutY="297.0" onMouseClicked="#pauseleitor2" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pause_button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pause_button_leitor3" fitHeight="45.0" fitWidth="45.0" layoutX="1044.0" layoutY="451.0" onMouseClicked="#pauseleitor3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pause_button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pause_button_leitor4" fitHeight="45.0" fitWidth="45.0" layoutX="1044.0" layoutY="599.0" onMouseClicked="#pauseleitor4" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pause_button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pause_button_escritor0" fitHeight="45.0" fitWidth="45.0" layoutX="79.0" layoutY="13.0" onMouseClicked="#pauseescritor0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pause_button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pause_button_escritor1" fitHeight="45.0" fitWidth="45.0" layoutX="79.0" layoutY="156.0" onMouseClicked="#pauseescritor1" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pause_button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pause_button_escritor2" fitHeight="45.0" fitWidth="45.0" layoutX="79.0" layoutY="303.0" onMouseClicked="#pauseescritor2" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pause_button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pause_button_escritor3" fitHeight="45.0" fitWidth="45.0" layoutX="79.0" layoutY="450.0" onMouseClicked="#pauseescritor3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pause_button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pause_button_escritor4" fitHeight="45.0" fitWidth="45.0" layoutX="79.0" layoutY="590.0" onMouseClicked="#pauseescritor4" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pause_button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="close_button" fitHeight="79.0" fitWidth="73.0" layoutX="875.0" layoutY="5.0" onMouseClicked="#close" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/close_button.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="reset_button" fitHeight="74.0" fitWidth="73.0" layoutX="146.0" layoutY="4.0" onMouseClicked="#reset" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/reset_button.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="status_leitor0" alignment="CENTER" contentDisplay="CENTER" layoutX="141.0" layoutY="411.0" prefHeight="20.0" prefWidth="180.0" textAlignment="CENTER" textFill="#fb00ff" visible="false">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="status_leitor1" alignment="CENTER" layoutX="310.0" layoutY="440.0" prefHeight="20.0" prefWidth="180.0" textAlignment="JUSTIFY" textFill="#00efff" visible="false">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="status_leitor2" alignment="CENTER" layoutX="472.0" layoutY="421.0" prefHeight="20.0" prefWidth="180.0" textAlignment="JUSTIFY" textFill="#ff3030" visible="false">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="status_leitor3" alignment="CENTER" layoutX="622.0" layoutY="440.0" prefHeight="20.0" prefWidth="180.0" textAlignment="JUSTIFY" textFill="#ff7b00" visible="false">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="status_leitor4" alignment="CENTER" layoutX="776.0" layoutY="410.0" prefHeight="20.0" prefWidth="180.0" textAlignment="JUSTIFY" textFill="#fffb00" visible="false">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="282.0" layoutY="5.0" prefHeight="58.0" prefWidth="517.0" text="Base de Dados" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="50.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
