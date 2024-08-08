@@ -1,12 +1,14 @@
 # Faculdade_Programação-Concorrente:
 
-## 🔎 Sobre os Projetos
+## 🔎 Sobre o Projeto
 
-Os projetos foram propostos pelo Docente Marlos André Marques Simões de Oliveira, com o intuito de representar os problemas clássicos de programação concorrente. Neste repositório, você encontrará implementações de vários algoritmos e problemas clássicos de concorrência, como o Problema dos leitores-escritores, o Problema do Trânsito Autônomo e outros. Cada projeto visa demonstrar conceitos fundamentais de sincronização, exclusão mútua e comunicação entre threads.
+Os trabalhos foram propostos pelo Docente Marlos André Marques Simões de Oliveira, com o intuito de representar os problemas clássicos de programação concorrente. Neste repositório, você encontrará implementações de vários algoritmos e problemas clássicos de concorrência, como o Problema dos leitores-escritores, o Problema do Trânsito Autônomo e outros. Cada projeto visa demonstrar conceitos fundamentais de sincronização, exclusão mútua e comunicação entre threads.
 
 ## 🖼️ Imagens:
 
+### 📖 Leitores X Escritores:
 ![PREVIEW][product-preview1]
+### 🚗 Trânsito Autônomo:
 ![PREVIEW2][product-preview2]
 
 ## 🔨 Construído com:
