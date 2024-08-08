@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="624.0" prefWidth="1040.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.BackgroundScreenController">
+   <children>
+      <ImageView fitHeight="625.0" fitWidth="1040.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/bg_verde.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="closeButton" fitHeight="60.0" fitWidth="60.0" layoutX="966.0" layoutY="14.0" onMouseClicked="#finalizarTudo" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/closeButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="barbeiroDormindo" fitHeight="286.0" fitWidth="229.0" layoutX="855.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../assets/barbeiroDormindo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="barbeiroCortando" fitHeight="286.0" fitWidth="229.0" layoutX="823.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/barbeiroAcordado.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="clienteSentado1" fitHeight="210.0" fitWidth="210.0" layoutX="389.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/clienteComCabelo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="clienteSentado5" fitHeight="210.0" fitWidth="210.0" layoutX="-17.0" layoutY="225.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/clienteComCabelo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="clienteSentado4" fitHeight="210.0" fitWidth="210.0" layoutX="76.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/clienteComCabelo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="clienteSentado3" fitHeight="210.0" fitWidth="210.0" layoutX="190.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/clienteComCabelo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="clienteSentado2" fitHeight="210.0" fitWidth="210.0" layoutX="293.0" layoutY="225.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/clienteComCabelo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="clientesPauseButton" fitHeight="60.0" fitWidth="60.0" layoutX="267.0" layoutY="530.0" onMouseClicked="#pausarClientes" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pauseButton.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="clientesSpeedSlider" layoutX="227.0" layoutY="592.0" />
+      <Slider fx:id="barbeiroSpeedSlider" layoutX="656.0" layoutY="592.0" />
+      <ImageView fx:id="barbeiroPauseButton" fitHeight="60.0" fitWidth="60.0" layoutX="696.0" layoutY="530.0" onMouseClicked="#pausarBarbeiro" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pauseButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="resetButton" fitHeight="76.0" fitWidth="76.0" layoutX="473.0" layoutY="520.0" onMouseClicked="#resetAll" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/resetButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="234.0" fitWidth="258.0" layoutX="728.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/barberchair.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="clienteCareca" fitHeight="210.0" fitWidth="210.0" layoutX="738.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../assets/clienteSemCabelo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="clienteCortando" fitHeight="210.0" fitWidth="210.0" layoutX="738.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../assets/clienteComCabelo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="clienteEspiando" fitHeight="179.0" fitWidth="138.0" layoutX="508.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../assets/clienteEspiando.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
